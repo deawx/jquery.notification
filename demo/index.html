@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Notification - demo page</title>
+    <meta name="robots" content="noindex,nofollow">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<button onclick="$.notification.show('success','Все классно, продолжайте в том же духе.');">success</button>
+<button onclick="$.notification.show('info','Безобидная инфа, повествующая о чем-то хорошем.')">info</button>
+<button onclick="$.notification.show('error','АААА!!! Все плохо, ты все сломал!!! Мы все умрем!!!')">error</button>
+<button onclick="$.notification.show('other','Дефолтная уведомлялка, не подходящая по содержанию не под одну из 3х обозначенных.')">other</button>
+<button onclick="$.notification.show('info','Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam cupiditate deserunt exercitationem facere iste labore nisi nulla quam voluptas. Autem corporis doloremque nihil placeat quam, quidem voluptates. Et, laborum odio.')">Long text</button>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="../jquery.notification.js"></script>
+
+</body>
+</html>
